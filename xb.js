@@ -54,14 +54,5 @@ var Xb = (function (undefined) {
     }
   };
 
-  that.debug = function () {
-    console.log('Xb debug info:');
-    for (key in Object.keys(_timeouts)) {
-      if (_tiemouts[key]) {
-        consle.log(_timeouts[key]);
-      }
-    }
-  };
-
   return that;
 })();
