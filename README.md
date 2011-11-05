@@ -20,7 +20,7 @@ Great, how can I use you?
 
 Simple, just include the script and do this:
 
-`Xb.do(function() { /* your code here */ });`
+`Xb.do(function(backoff) { /* your code here */ });`
 
 And that's it! :)
 
@@ -34,7 +34,7 @@ If the callback doesn't succeed (e.g. no new information) then the wait doubles 
 Ok big shot, how do YOU know if there's new information or not? it's MY code after all
 --------------------------------------------------------------------------------------
 
-Indeed, that's why I need your help. Your callback must return something, if the callback result is falsy then I'll consider there was no new info and duplicate the interval. If it's truthy, the interval resets.
+Indeed, that's why I need your help. When I invoke the functions you send me, I'll pass in a `backoff` object. If you call `reset` on it, the timer will reset. If you don't the backoff policy will keep it's course. You must call `backoff.reset()` when you consider fresh info is available.
 
 So far, so good, but I don't like your default values
 -----------------------------------------------------
