@@ -61,4 +61,4 @@ Note that you can also reset it with the `reset` method.
 Well you sound like a cool little lib, maybe I'll include you in my new project.
 ================================================================================
 
-Thanks! I'll be glad to help you :)
+Thanks! I'll be glad to help you. Please check [the examples folder](https://github.com/fernandezpablo85/Xb/tree/master/examples) for some neat code snippets! :)
