@@ -1,6 +1,17 @@
 A conversation with Xb (FAQ)
 ============================
 
+UPDATE
+------
+
+Xb is now __fully node.js compatible__ and you can retrieve it using `npm`, like this:
+
+`npm install xb`
+
+and then on your scripts:
+
+`var Xb = require('xb')`
+
 Who are you?
 -------------
 

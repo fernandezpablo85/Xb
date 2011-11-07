@@ -1,4 +1,5 @@
 var http = require('http')
+var Xb = require('xb')
 
 var options = {
   host: 'isitchristmas.com',

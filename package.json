@@ -1,0 +1,18 @@
+{
+  "name" : "xb",
+  "version" : "0.1.5",
+  "description" : "A tiny and simple backoff policy library",
+  "keywords" : ["backoff", "xb", "callback", "exponential"],
+  "author" :
+  {
+    "name" : "Pablo Fernandez",
+    "email" : "fernandezpablo85@gmail.com",
+    "url" : "http://fernandezpablo.tumblr.com"
+  },
+  "repository" :
+  {
+    "type" : "git",
+    "url" : "https://github.com/fernandezpablo85/Xb"
+  },
+  "main" : "./lib/xb.js"
+}
