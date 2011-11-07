@@ -1,3 +1,14 @@
+/* 
+* Node http client polling example. (requires node.js)
+*
+* Explanation:
+*
+*   Poll the page 'http://isitchristmas.com' to see if it is Christmas already.
+*
+*   Parse the html response to check the answer, and reset the policy if the answer
+*   is positive.
+*/
+
 var http = require('http')
 var Xb = require('xb')
 
