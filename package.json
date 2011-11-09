@@ -1,6 +1,6 @@
 {
   "name" : "xb",
-  "version" : "0.1.5",
+  "version" : "0.1.8",
   "description" : "A tiny and simple backoff policy library",
   "keywords" : ["backoff", "xb", "callback", "exponential"],
   "author" :
